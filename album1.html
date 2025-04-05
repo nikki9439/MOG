@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Album Title 1 - My Music Website</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Custom Styles for Album Details Page */
+    .album-details {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: rgb(172, 138, 156);
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .album-details h2 {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+
+    .album-details img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 8px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .tracklist {
+      margin-top: 20px;
+    }
+
+    .tracklist ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .tracklist li {
+      padding: 10px;
+      background-color: #f1f1f1;
+      margin-bottom: 5px;
+      border-radius: 5px;
+    }
+
+    .audio-player {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .audio-player audio {
+      width: 100%;
+      max-width: 600px;
+      margin: 10px 0;
+    }
+
+    .back-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .back-btn:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Album Details Section -->
+  <section class="album-details">
+    <h2>Album Title 1</h2>
+
+    <!-- Album Cover -->
+    <img src="https://www.musicgrotto.com/wp-content/uploads/2022/11/best-selling-albums-text-graphic-record-on-left-music-background.jpg" alt="Album Cover 1">
+<br>
+    <!-- Album Description -->
+    <p>Album Title 1 is a remarkable collection of tracks that showcase a perfect blend of genres. From soulful ballads to upbeat anthems, this album has something for everyone. Enjoy the unique sounds of our latest release!</p>
+
+    <!-- Tracklist -->
+    <div class="tracklist">
+      <h3>Tracklist</h3>
+      <ul>
+        <li>Track 1: Song Name - 3:45</li>
+        <li>Track 2: Song Name - 4:10</li>
+        <li>Track 3: Song Name - 3:20</li>
+        <li>Track 4: Song Name - 3:55</li>
+        <li>Track 5: Song Name - 4:05</li>
+      </ul>
+    </div>
+
+    <!-- Audio Player -->
+    <div class="audio-player">
+      <h3>Listen to a Sample</h3>
+      <audio controls>
+        <source src="path_to_audio_file/album1-track1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <!-- Back Button -->
+    <a href="albums.html" class="back-btn">Back to Albums</a>
+  </section>
+
+</body>
+</html>
